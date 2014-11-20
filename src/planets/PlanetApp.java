@@ -23,36 +23,36 @@ public class PlanetApp extends Applet {
 		BranchGroup objRoot = new BranchGroup();
 
 		Transform3D t3d = new Transform3D();
-		t3d.rotX(Math.toRadians(45));
+		t3d.rotX(Math.toRadians(30));
 
 		TransformGroup objRot = new TransformGroup(t3d);
 
 		float distanceFactor = 1.5f;
 
-		objRot.addChild(new Planet("sun", 10, 0));
+		objRot.addChild(new Planet("sun-small", 10, 0));
 
-		objRot.addChild(new Planet("merkury", 2, 15 * distanceFactor));
+		objRot.addChild(new Planet("merkury-small", 2, 15 * distanceFactor));
 		objRot.addChild(new Planet("line", 15 * distanceFactor, 0));
 
-		objRot.addChild(new Planet("venus", 2, 20 * distanceFactor));
+		objRot.addChild(new Planet("venus-small", 2, 20 * distanceFactor));
 		objRot.addChild(new Planet("line", 20 * distanceFactor, 0));
 
 		objRot.addChild(new Planet("earth-k", 3, 30 * distanceFactor));
 		objRot.addChild(new Planet("line", 30 * distanceFactor, 0));
 
-		objRot.addChild(new Planet("mars", 3, 40 * distanceFactor));
+		objRot.addChild(new Planet("mars-small", 3, 40 * distanceFactor));
 		objRot.addChild(new Planet("line", 40 * distanceFactor, 0));
 
-		objRot.addChild(new Planet("jupiter", 8, 60 * distanceFactor));
+		objRot.addChild(new Planet("jupiter-small", 8, 60 * distanceFactor));
 		objRot.addChild(new Planet("line", 60 * distanceFactor, 0));
 
-		objRot.addChild(new Planet("saturn", 6, 80 * distanceFactor));
+		objRot.addChild(new Planet("saturn-small", 6, 80 * distanceFactor));
 		objRot.addChild(new Planet("line", 80 * distanceFactor, 0));
 
-		objRot.addChild(new Planet("uranus", 5, 95 * distanceFactor));
+		objRot.addChild(new Planet("uranus-small", 5, 95 * distanceFactor));
 		objRot.addChild(new Planet("line", 95 * distanceFactor, 0));
 
-		objRot.addChild(new Planet("neptune", 5, 110 * distanceFactor));
+		objRot.addChild(new Planet("neptune-small", 5, 110 * distanceFactor));
 		objRot.addChild(new Planet("line", 110 * distanceFactor, 0));
 
 

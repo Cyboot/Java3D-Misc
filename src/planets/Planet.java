@@ -47,9 +47,11 @@ public class Planet extends TransformGroup {
 		appear.setTexture(texture);
 
 		PolygonAttributes pa = new PolygonAttributes();
-		pa.setPolygonMode(PolygonAttributes.POLYGON_POINT);
+		pa.setPolygonMode(PolygonAttributes.POLYGON_FILL);
 
-		pa.setCullFace(PolygonAttributes.CULL_NONE);
+		if (name.contains("line")) {
+			pa.setCullFace(PolygonAttributes.CULL_NONE);
+		}
 		appear.setPolygonAttributes(pa);
 
 

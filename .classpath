@@ -6,7 +6,7 @@
 	<classpathentry kind="lib" path="lib/j3dcore.jar">
 		<attributes>
 			<attribute name="javadoc_location" value="jar:platform:/resource/GDV-X-Test/lib/javadoc2.zip!/j3d-1_5_2-api-docs"/>
-			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="GDV-X-Test/lib"/>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Java3D-Misc/lib"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="lib/j3dutils.jar">
